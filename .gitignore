@@ -1,0 +1,8 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+
+input/*
+output/*
+pixi.toml
