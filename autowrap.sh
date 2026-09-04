@@ -23,6 +23,8 @@ emcc input/*.c wrapper.cpp \
     -s ALLOW_MEMORY_GROWTH=1 \
     -s INITIAL_MEMORY=33554432 \
     --bind \
+    -s MODULARIZE=1 \
+    -s EXPORT_NAME="createWasmModule" \
     -I input \
     -I extern/include \
     -o output/index.js
