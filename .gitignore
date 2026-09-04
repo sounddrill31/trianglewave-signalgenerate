@@ -3,10 +3,9 @@
 !.pixi/config.toml
 
 
-input/*
-output/*
 pixi.toml
 
+output/*
 
 gen
 mlrFiles.zip
