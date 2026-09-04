@@ -6,3 +6,9 @@
 input/*
 output/*
 pixi.toml
+
+
+gen
+mlrFiles.zip
+sDirFiles.zip
+wrapper.cpp
