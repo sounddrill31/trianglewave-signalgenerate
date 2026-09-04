@@ -19,6 +19,10 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
+          target_commitish: ${{ github.ref_name }}
+          tag_name: ${{ github.run_id }}
           files: |
             output/index.js
             output/index.wasm
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
